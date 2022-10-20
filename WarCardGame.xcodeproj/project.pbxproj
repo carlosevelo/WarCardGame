@@ -7,18 +7,54 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0704D25828F0841A00A5C632 /* CardDeck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0704D25728F0841A00A5C632 /* CardDeck.swift */; };
+		0707EBD628EF32E400193FA6 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0707EBD528EF32E400193FA6 /* Theme.swift */; };
+		0707EBD828EF39FD00193FA6 /* PlayingAreaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0707EBD728EF39FD00193FA6 /* PlayingAreaView.swift */; };
+		075A2E8728F22D4C0088687D /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 075A2E8628F22D4B0088687D /* HomeView.swift */; };
+		07A5638828F4704000792CB0 /* CardSymbolView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A5638728F4704000792CB0 /* CardSymbolView.swift */; };
+		07A5638A28F5B3BE00792CB0 /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A5638928F5B3BE00792CB0 /* TimerView.swift */; };
 		07AEB25B28DA5CE1008559AF /* WarCardGameApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07AEB25A28DA5CE1008559AF /* WarCardGameApp.swift */; };
-		07AEB25D28DA5CE1008559AF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07AEB25C28DA5CE1008559AF /* ContentView.swift */; };
+		07AEB25D28DA5CE1008559AF /* WarGameMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07AEB25C28DA5CE1008559AF /* WarGameMainView.swift */; };
 		07AEB25F28DA5CE3008559AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07AEB25E28DA5CE3008559AF /* Assets.xcassets */; };
 		07AEB26228DA5CE3008559AF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07AEB26128DA5CE3008559AF /* Preview Assets.xcassets */; };
+		07AEB26C28DA5E76008559AF /* CardStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07AEB26B28DA5E76008559AF /* CardStackView.swift */; };
+		07AEB26E28DA5F83008559AF /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07AEB26D28DA5F83008559AF /* CardView.swift */; };
+		07AEB27028DA60D6008559AF /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07AEB26F28DA60D6008559AF /* Card.swift */; };
+		07AEB27228DA6460008559AF /* WarGameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07AEB27128DA6460008559AF /* WarGameViewModel.swift */; };
+		07AEB27428DA6530008559AF /* WarGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07AEB27328DA6530008559AF /* WarGame.swift */; };
+		07B8ABCD28F8D434007B1459 /* SoundPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07B8ABCC28F8D433007B1459 /* SoundPlayer.swift */; };
+		07B8ABD828F8D813007B1459 /* win.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 07B8ABD528F8D813007B1459 /* win.mp3 */; };
+		07B8ABD928F8D813007B1459 /* cardSound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 07B8ABD628F8D813007B1459 /* cardSound.mp3 */; };
+		07B8ABDA28F8D813007B1459 /* loss.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 07B8ABD728F8D813007B1459 /* loss.mp3 */; };
+		07B8ABDC28F8D942007B1459 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07B8ABDB28F8D942007B1459 /* Settings.swift */; };
+		07BBA25E28FA3D2C00E7B701 /* README.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 07BBA25D28FA3D2B00E7B701 /* README.rtf */; };
+		07BBA26028FA3F6600E7B701 /* Requirements.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 07BBA25F28FA3F6600E7B701 /* Requirements.rtf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0704D25728F0841A00A5C632 /* CardDeck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardDeck.swift; sourceTree = "<group>"; };
+		0707EBD528EF32E400193FA6 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		0707EBD728EF39FD00193FA6 /* PlayingAreaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayingAreaView.swift; sourceTree = "<group>"; };
+		075A2E8628F22D4B0088687D /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		07A5638728F4704000792CB0 /* CardSymbolView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardSymbolView.swift; sourceTree = "<group>"; };
+		07A5638928F5B3BE00792CB0 /* TimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
 		07AEB25728DA5CE1008559AF /* WarCardGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WarCardGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		07AEB25A28DA5CE1008559AF /* WarCardGameApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WarCardGameApp.swift; sourceTree = "<group>"; };
-		07AEB25C28DA5CE1008559AF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		07AEB25C28DA5CE1008559AF /* WarGameMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WarGameMainView.swift; sourceTree = "<group>"; };
 		07AEB25E28DA5CE3008559AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		07AEB26128DA5CE3008559AF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		07AEB26B28DA5E76008559AF /* CardStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardStackView.swift; sourceTree = "<group>"; };
+		07AEB26D28DA5F83008559AF /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		07AEB26F28DA60D6008559AF /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		07AEB27128DA6460008559AF /* WarGameViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WarGameViewModel.swift; sourceTree = "<group>"; };
+		07AEB27328DA6530008559AF /* WarGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WarGame.swift; sourceTree = "<group>"; };
+		07B8ABCC28F8D433007B1459 /* SoundPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundPlayer.swift; sourceTree = "<group>"; };
+		07B8ABD528F8D813007B1459 /* win.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = win.mp3; sourceTree = "<group>"; };
+		07B8ABD628F8D813007B1459 /* cardSound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = cardSound.mp3; sourceTree = "<group>"; };
+		07B8ABD728F8D813007B1459 /* loss.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = loss.mp3; sourceTree = "<group>"; };
+		07B8ABDB28F8D942007B1459 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		07BBA25D28FA3D2B00E7B701 /* README.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = README.rtf; path = WarCardGame/README.rtf; sourceTree = "<group>"; };
+		07BBA25F28FA3F6600E7B701 /* Requirements.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = Requirements.rtf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +71,8 @@
 		07AEB24E28DA5CE1008559AF = {
 			isa = PBXGroup;
 			children = (
+				07BBA25F28FA3F6600E7B701 /* Requirements.rtf */,
+				07BBA25D28FA3D2B00E7B701 /* README.rtf */,
 				07AEB25928DA5CE1008559AF /* WarCardGame */,
 				07AEB25828DA5CE1008559AF /* Products */,
 			);
@@ -51,8 +89,12 @@
 		07AEB25928DA5CE1008559AF /* WarCardGame */ = {
 			isa = PBXGroup;
 			children = (
+				07B8ABCE28F8D598007B1459 /* Sounds */,
+				07B8ABCB28F8D40E007B1459 /* Utils */,
+				07AEB26A28DA5D27008559AF /* ViewModels */,
+				07AEB26928DA5D1F008559AF /* Models */,
 				07AEB25A28DA5CE1008559AF /* WarCardGameApp.swift */,
-				07AEB25C28DA5CE1008559AF /* ContentView.swift */,
+				07AEB26828DA5D17008559AF /* Views */,
 				07AEB25E28DA5CE3008559AF /* Assets.xcassets */,
 				07AEB26028DA5CE3008559AF /* Preview Content */,
 			);
@@ -65,6 +107,58 @@
 				07AEB26128DA5CE3008559AF /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		07AEB26828DA5D17008559AF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				07AEB25C28DA5CE1008559AF /* WarGameMainView.swift */,
+				07AEB26B28DA5E76008559AF /* CardStackView.swift */,
+				07AEB26D28DA5F83008559AF /* CardView.swift */,
+				0707EBD728EF39FD00193FA6 /* PlayingAreaView.swift */,
+				075A2E8628F22D4B0088687D /* HomeView.swift */,
+				07A5638728F4704000792CB0 /* CardSymbolView.swift */,
+				07A5638928F5B3BE00792CB0 /* TimerView.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		07AEB26928DA5D1F008559AF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				07AEB26F28DA60D6008559AF /* Card.swift */,
+				07AEB27328DA6530008559AF /* WarGame.swift */,
+				0704D25728F0841A00A5C632 /* CardDeck.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		07AEB26A28DA5D27008559AF /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				07AEB27128DA6460008559AF /* WarGameViewModel.swift */,
+			);
+			name = ViewModels;
+			sourceTree = "<group>";
+		};
+		07B8ABCB28F8D40E007B1459 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				0707EBD528EF32E400193FA6 /* Theme.swift */,
+				07B8ABCC28F8D433007B1459 /* SoundPlayer.swift */,
+				07B8ABDB28F8D942007B1459 /* Settings.swift */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		07B8ABCE28F8D598007B1459 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				07B8ABD628F8D813007B1459 /* cardSound.mp3 */,
+				07B8ABD728F8D813007B1459 /* loss.mp3 */,
+				07B8ABD528F8D813007B1459 /* win.mp3 */,
+			);
+			name = Sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,7 +220,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				07AEB26228DA5CE3008559AF /* Preview Assets.xcassets in Resources */,
+				07BBA26028FA3F6600E7B701 /* Requirements.rtf in Resources */,
 				07AEB25F28DA5CE3008559AF /* Assets.xcassets in Resources */,
+				07B8ABD828F8D813007B1459 /* win.mp3 in Resources */,
+				07B8ABD928F8D813007B1459 /* cardSound.mp3 in Resources */,
+				07BBA25E28FA3D2C00E7B701 /* README.rtf in Resources */,
+				07B8ABDA28F8D813007B1459 /* loss.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,7 +236,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				07AEB25D28DA5CE1008559AF /* ContentView.swift in Sources */,
+				0707EBD628EF32E400193FA6 /* Theme.swift in Sources */,
+				07AEB26C28DA5E76008559AF /* CardStackView.swift in Sources */,
+				07AEB25D28DA5CE1008559AF /* WarGameMainView.swift in Sources */,
+				07AEB27028DA60D6008559AF /* Card.swift in Sources */,
+				075A2E8728F22D4C0088687D /* HomeView.swift in Sources */,
+				07A5638A28F5B3BE00792CB0 /* TimerView.swift in Sources */,
+				07AEB27428DA6530008559AF /* WarGame.swift in Sources */,
+				07A5638828F4704000792CB0 /* CardSymbolView.swift in Sources */,
+				07B8ABCD28F8D434007B1459 /* SoundPlayer.swift in Sources */,
+				07B8ABDC28F8D942007B1459 /* Settings.swift in Sources */,
+				07AEB26E28DA5F83008559AF /* CardView.swift in Sources */,
+				0704D25828F0841A00A5C632 /* CardDeck.swift in Sources */,
+				07AEB27228DA6460008559AF /* WarGameViewModel.swift in Sources */,
+				0707EBD828EF39FD00193FA6 /* PlayingAreaView.swift in Sources */,
 				07AEB25B28DA5CE1008559AF /* WarCardGameApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
